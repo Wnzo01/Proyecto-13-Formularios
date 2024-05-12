@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form action="show_data.html">
+    <h2>Formularios</h2>
+
+    <fieldset>
+        <legend>
+            Ejemplo de formulario
+        </legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+
+    <input type="text" name="apellido" id="apellido" placeholder="miApellido">
+
+    <label for="endad">Edad:</label>
+    <input type="text" name="edad" id="edad" min="18">
+    </fieldset>
+
+    <fieldset>
+        <legend>Nivel de Educacion</legend>
+
+        <label for="primario">Primario</label>
+        <input type="radio" name="educacion" value="primario" id="primario">
+
+        <label for="secundario">secundario</label>
+        <input type="radio" name="educacion" value="secundario" id="secundario">
+
+        <label for="terciario">terciario</label>
+        <input type="radio" name="educacion" value="terciario" id="terciario">
+    </fieldset>
+
+    <fieldset>
+        <legend>Hobbies</legend>
+
+        <label for="deportes">Deportes</label>
+        <input type="checkbox" name="hobbies" value="deportes" id="deportes">
+
+        <label for="actividadFisica">Actividad Fisica</label>
+        <input type="checkbox" name="hobbies" value="actividadFisica" id="actividadFisica">
+
+        <label for="videojuegos">Videojuegos</label>
+        <input type="checkbox" name="hobbies" value="videojuegos" id="videojuegos">
+    </fieldset>
+
+    <fieldset>
+        <label for="pais">Pais de residencia</label>
+        <select name="pais" id="pais">
+            <option disabled selected value="">Seleccione un pais</option>
+
+            <option value="arg">Argentina</option>
+            <option value="uru">Uruguay</option>
+            <option value="chi">Chile</option>
+            <option value="col">Colombia</option>
+        </select>
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+
+</form>
+
+<!-- FOMULARIO DE GOOGLE -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDC118-oNi--EPqp8r3uZq_yT3lIhHuoDBiLMFRQ09YqXQhQ/viewform?embedded=true" width="600" height="554" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+</body>
+</html>
